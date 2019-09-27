@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-
-
+  loadState = 'loading';
+  onClickMe() {
+    this.loadState = 'finished';
+  }
 }
