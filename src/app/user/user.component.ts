@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class UserComponent {
   name = 'Tomek';
+  // onUserInput(event) {
+  //   this.name = event.target.value;
+  // }
 }
