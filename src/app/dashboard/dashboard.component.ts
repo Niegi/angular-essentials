@@ -9,5 +9,6 @@ export class DashboardComponent {
   loadState = 'loading';
   onClickMe() {
     this.loadState = 'finished';
+    console.log('button clicked');
   }
 }
