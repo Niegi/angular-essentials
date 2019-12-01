@@ -8,9 +8,9 @@ const routes = [
     { path: '', redirectTo: 'all', pathMatch: 'full' },
     { path: ':side', component: ListComponent }
   ] },
-  { path: 'new-character', loadChildren: './create-character/create-character.module.ts#CreateCharaterModule' },
+  { path: 'new-character', loadChildren: './create-character/create-character.module.ts#CreateCharacterModule' },
   { path: '**', redirectTo: '/characters' }
-]
+];
 
 @NgModule({
   imports: [
